@@ -1,0 +1,250 @@
+ 
+/*Variables*/
+ $titulo-fuente: normal 24px/1.5 'Pacifico', cursive;
+ $color-blue: #e4ecf1;
+ $width-icon: 50px;
+ $width-logo: 160px;
+ $title-fuente:'Pacifico', cursive;
+
+
+/*SCSS*/
+
+    h1.titulo {
+      font: $titulo-fuente;
+      }
+        
+      body {
+        color: $color-blue;
+      }
+  
+    .icon {
+      width: $width-icon
+    }
+    
+    .logo {
+      width: $width-logo;
+    }
+ #title03 {
+   font:$title-fuente;
+ }
+
+ /*Operaciones*/
+ $color-fondo:#e4ecf1;
+ 
+ body {
+   @if ($color-fondo == blanco) {
+     color: #f1f1f1;
+   } @else if ($color-fondo == celeste) {
+     color:#86adc5;
+   } @else {
+     color: #e4ecf1;
+   }
+ }
+ 
+
+ /*navbar*/
+ #textos {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  color: black;
+ }
+ 
+
+/*body*/
+
+.fonDo{
+  background: white;
+ }
+
+
+h1 {
+  color:black;
+  font-weight: bold; 
+  }
+
+
+  h3 {
+    color: rgb(26, 29, 209);
+    font-size: 20px;
+    width: 250px;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 100px 10px 50px 10px;
+  }
+
+/*Nav*/
+
+ .logo {
+   width: 160px;
+ }
+
+ /*Sección 1 del Index*/
+  
+.oracion {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+.oracion02 {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+  /*footer index*/
+
+.pieDePagina01 {
+  list-style-type:none;
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center; 
+  background-color:  #074e88;
+  color: white;
+  padding-top: 15px;
+}
+
+.icon {
+ width: 50px;
+}
+
+ /* Seccion 1 del Acerca de nosotros*/
+ 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+/*HEADER*/
+.title h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: rgba(2, 1, 1, 0.986);
+  height: 50px;
+}
+
+
+.article {
+display: grid;
+grid-template-columns: 700px 700px;
+}
+
+
+.Parrafo {
+ grid-column: 1/ span 1;
+}
+
+.Img {
+ grid-column: 2 / span 1;
+} 
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 26px auto;
+
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.container > .header
+.container > .content
+.container > .sidebar {
+padding: 20px;
+}
+
+.container > .content {
+  grid-column: span 3;
+}
+
+.container > .sidebar {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content > .article {
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.content .article h1
+.content .article p {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+      text-align: center;
+  }
+  .container .sidebar {
+      grid-column: 1/6;
+  }
+}
+
+  /*Sección 1 Servicios que ofrecemos*/
+
+  .container02 {
+    padding: 0px 20px 30px 10px;
+    margin-left: 10px;
+    margin-top: 0; 
+    &__content02 {
+     font-family:'Pacifico', cursive;
+     }
+    &__parrafo {
+      font-weight: bold;
+    }
+  }
+
+/*Secciónes Nuestros viajes en fotos*/
+
+#Title02 {
+font-family: 'Pacifico', cursive;
+color: rgba(0, 0, 0, 0.76);
+}
+#title03 {
+  font-family: 'Pacifico', cursive;
+  }
+
+/*Contacto*/
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+#title04 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+.margenes {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.fieldset {
+height: 550px;
+width: 400px;
+margin-left: 480px;
+}
+
+
+
+
