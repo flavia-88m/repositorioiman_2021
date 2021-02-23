@@ -40,25 +40,17 @@ h3 {
   width: 250px; }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 100px 10px 50px 10px; }
 
 /*Nav*/
 .logo {
-  width: 160px; }
+  width: 130px; }
 
 /*Sección 1 del Index*/
-.oracion {
-  font-family: 'Pacifico', cursive;
-  font-size: 40px;
-  text-align: center;
-  line-height: 1.6;
-  color: black; }
-
-.oracion02 {
-  font-size: 28px;
-  text-align: center;
-  color: black; }
+#oracion {
+  font-size: 45px;
+  line-height: 1.6; }
 
 /*footer index*/
 .pieDePagina01 {
@@ -74,9 +66,13 @@ p {
   width: 50px; }
 
 /* Seccion 1 del Acerca de nosotros*/
-* {
-  margin: 0px;
-  padding: 0px; }
+#textAcerca {
+  padding: 20px 8px 0px 5px;
+  margin: 10px 8px 0px; }
+
+#oracion2 {
+  font-size: 45px;
+  line-height: 1.6; }
 
 body {
   text-align: center; }
@@ -87,52 +83,6 @@ body {
   font-family: 'Pacifico', cursive;
   color: rgba(2, 1, 1, 0.986);
   height: 50px; }
-
-.article {
-  display: grid;
-  grid-template-columns: 700px 700px; }
-
-.Parrafo {
-  grid-column: 1/ span 1; }
-
-.Img {
-  grid-column: 2 / span 1; }
-
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 26px auto;
-  display: grid;
-  gap: 26px;
-  grid-template-columns: repeat(5, 1fr); }
-
-.container > .header
-.container > .content
-.container > .sidebar {
-  padding: 20px; }
-
-.container > .content {
-  grid-column: span 3; }
-
-.container > .sidebar {
-  grid-column: span 2;
-  display: flex;
-  align-items: center;
-  flex-direction: column; }
-
-.content > .article {
-  padding: 20px;
-  margin-top: 5px; }
-
-.content .article h1
-.content .article p {
-  padding: 10px; }
-
-@media screen and (max-width: 768px) {
-  .header {
-    text-align: center; }
-  .container .sidebar {
-    grid-column: 1/6; } }
 
 /*Sección 1 Servicios que ofrecemos*/
 .container02 {
@@ -168,7 +118,8 @@ body {
 
 #title04 {
   font-family: 'Pacifico', cursive;
-  font-size: 50px; }
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.835); }
 
 .margenes {
   padding: 20px;
@@ -178,3 +129,9 @@ body {
   height: 550px;
   width: 400px;
   margin-left: 480px; }
+
+.logoimg2 {
+  width: 60px; }
+
+#colorB {
+  color: rgba(0, 0, 0, 0.486); }
