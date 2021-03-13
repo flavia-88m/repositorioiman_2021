@@ -26,6 +26,12 @@ body {
   font-weight: bolder;
   color: black; }
 
+.celeste {
+  background-color: #0d48a1ce !important; }
+
+.top-nav-collapse {
+  background-color: #6cbcfd57 !important; }
+
 /*body*/
 .fonDo {
   background: white; }
@@ -45,37 +51,27 @@ p {
 
 /*Nav*/
 .logo {
-  width: 130px; }
+  width: 100px; }
 
 /*Sección 1 del Index*/
 #oracion {
   font-size: 45px;
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin-top: 40px; }
 
-/*footer index*/
-.pieDePagina01 {
-  list-style-type: none;
-  font-size: 16px;
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  background-color: #074e88;
-  color: white;
-  padding-top: 15px; }
+.Index {
+  margin-top: 30px;
+  padding-top: 20px; }
 
-.icon {
-  width: 50px; }
+.index2 {
+  margin-top: 50px; }
 
 /* Seccion 1 del Acerca de nosotros*/
-#textAcerca {
-  padding: 20px 8px 0px 5px;
-  margin: 10px 8px 0px; }
+.aCerca {
+  margin-bottom: 80px; }
 
-#oracion2 {
-  font-size: 45px;
-  line-height: 1.6; }
-
-body {
-  text-align: center; }
+.acercaTexto {
+  line-height: 1.7; }
 
 /*HEADER*/
 .title h1 {
@@ -101,6 +97,18 @@ body {
 
 #title03 {
   font-family: 'Pacifico', cursive; }
+
+/*Información Util*/
+.infoUtil {
+  margin-top: 43px;
+  margin-right: 0;
+  padding-right: 0; }
+
+.infoUtil2 {
+  margin-bottom: 80px; }
+
+.tituloInfo {
+  font-size: 40px; }
 
 /*Contacto*/
 .map-container-section {
