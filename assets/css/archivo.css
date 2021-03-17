@@ -1,25 +1,4 @@
 @charset "UTF-8";
-/*Variables*/
-/*SCSS*/
-h1.titulo {
-  font: normal 24px/1.5 "Pacifico", cursive; }
-
-body {
-  color: #e4ecf1; }
-
-.icon {
-  width: 50px; }
-
-.logo {
-  width: 160px; }
-
-#title03 {
-  font: "Pacifico", cursive; }
-
-/*Operaciones*/
-body {
-  color: #e4ecf1; }
-
 /*navbar*/
 #textos {
   font-family: 'Comfortaa', cursive;
@@ -32,6 +11,22 @@ body {
 .top-nav-collapse {
   background-color: #6cbcfd57 !important; }
 
+.navbar ul li {
+  position: relative; }
+
+.navbar ul li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out; }
+
+.navbar ul li:hover::before {
+  width: 100%; }
+
 /*body*/
 .fonDo {
   background: white; }
@@ -40,14 +35,8 @@ h1 {
   color: black;
   font-weight: bold; }
 
-h3 {
-  color: #1a1dd1;
-  font-size: 20px;
-  width: 250px; }
-
 p {
-  font-size: 18px;
-  margin: 100px 10px 50px 10px; }
+  font-size: 18px; }
 
 /*Nav*/
 .logo {
@@ -57,10 +46,18 @@ p {
 #oracion {
   font-size: 45px;
   line-height: 1.6;
-  margin-top: 40px; }
+  margin-top: 150px; }
+
+#oracion2 {
+  margin-top: 150px; }
+
+#oracion3 {
+  font-size: 45px;
+  line-height: 1.6;
+  margin-top: 80px; }
 
 .Index {
-  margin-top: 30px;
+  margin-top: 20px;
   padding-top: 20px; }
 
 .index2 {
@@ -73,39 +70,44 @@ p {
 .acercaTexto {
   line-height: 1.7; }
 
+.aCerca2 {
+  margin-top: 30px; }
+
 /*HEADER*/
 .title h1 {
   text-align: center;
-  font-family: 'Pacifico', cursive;
   color: rgba(2, 1, 1, 0.986);
   height: 50px; }
 
 /*Sección 1 Servicios que ofrecemos*/
-.container02 {
-  padding: 0px 20px 30px 10px;
-  margin-left: 10px;
-  margin-top: 0; }
-  .container02__content02 {
-    font-family: 'Pacifico', cursive; }
-  .container02__parrafo {
-    font-weight: bold; }
+.tabla {
+  margin-left: 280px; }
+
+.textoServ {
+  margin-top: 13px; }
 
 /*Secciónes Nuestros viajes en fotos*/
-#Title02 {
-  font-family: 'Pacifico', cursive;
-  color: rgba(0, 0, 0, 0.76); }
+.photo1 {
+  margin-top: 130px; }
 
-#title03 {
-  font-family: 'Pacifico', cursive; }
+.photo2 {
+  margin: 10px 5px 10px 10px; }
+
+.photo3 {
+  margin-right: 0px;
+  padding-right: 0px; }
 
 /*Información Util*/
 .infoUtil {
-  margin-top: 43px;
+  margin-top: 90px;
   margin-right: 0;
   padding-right: 0; }
 
 .infoUtil2 {
   margin-bottom: 80px; }
+
+.infoUtil3 {
+  margin-top: 20px; }
 
 .tituloInfo {
   font-size: 40px; }
@@ -125,7 +127,6 @@ p {
   position: absolute; }
 
 #title04 {
-  font-family: 'Pacifico', cursive;
   font-size: 50px;
   color: rgba(0, 0, 0, 0.835); }
 

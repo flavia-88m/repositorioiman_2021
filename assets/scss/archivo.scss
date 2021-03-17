@@ -1,47 +1,3 @@
- 
-/*Variables*/
- $titulo-fuente: normal 24px/1.5 'Pacifico', cursive;
- $color-blue: #e4ecf1;
- $width-icon: 50px;
- $width-logo: 160px;
- $title-fuente:'Pacifico', cursive;
-
-
-/*SCSS*/
-
-    h1.titulo {
-      font: $titulo-fuente;
-      }
-        
-      body {
-        color: $color-blue;
-      }
-  
-    .icon {
-      width: $width-icon
-    }
-    
-    .logo {
-      width: $width-logo;
-    }
- #title03 {
-   font:$title-fuente;
- }
-
- /*Operaciones*/
- $color-fondo:#e4ecf1;
- 
- body {
-   @if ($color-fondo == blanco) {
-     color: #f1f1f1;
-   } @else if ($color-fondo == celeste) {
-     color:#86adc5;
-   } @else {
-     color: #e4ecf1;
-   }
- }
- 
-
  /*navbar*/
  #textos {
   font-family: 'Comfortaa', cursive;
@@ -57,6 +13,25 @@
   background-color: #6cbcfd57 !important;
  }
 
+ .navbar ul li {
+   position: relative;
+ }
+
+ .navbar ul li::before {
+   content: "";
+   height: 3px;
+   width: 0%;
+   background-color: white;
+   position: absolute;
+   left: 0;
+   bottom: -12px;
+   transition: 0.4s ease-out;
+ }
+.navbar ul li:hover::before {
+  width: 100%;
+}
+ 
+
 /*body*/
 
 .fonDo{
@@ -70,33 +45,36 @@ h1 {
   }
 
 
-  h3 {
-    color: rgb(26, 29, 209);
-    font-size: 20px;
-    width: 250px;
-  }
-
-  p {
-    font-size: 18px;
-    margin: 100px 10px 50px 10px;
-  }
+p {
+  font-size: 18px;
+}
 
 /*Nav*/
-
  .logo {
    width: 100px;
  }
+
 
  /*Sección 1 del Index*/
   
 #oracion {
     font-size: 45px;
     line-height: 1.6;
-    margin-top: 40px;
+    margin-top: 150px;
+}
+
+#oracion2 {
+  margin-top: 150px;
+}
+
+#oracion3 {
+  font-size: 45px;
+  line-height: 1.6;
+  margin-top: 80px;
 }
 
 .Index {
-  margin-top: 30px;
+  margin-top: 20px;
   padding-top: 20px;
 }
 
@@ -115,11 +93,13 @@ h1 {
  line-height: 1.7;  
  }
 
+ .aCerca2 {
+   margin-top: 30px;
+ }
 
 /*HEADER*/
 .title h1 {
   text-align: center;
-  font-family: 'Pacifico', cursive;
   color: rgba(2, 1, 1, 0.986);
   height: 50px;
 }
@@ -127,37 +107,43 @@ h1 {
 
   /*Sección 1 Servicios que ofrecemos*/
 
-  .container02 {
-    padding: 0px 20px 30px 10px;
-    margin-left: 10px;
-    margin-top: 0; 
-    &__content02 {
-     font-family:'Pacifico', cursive;
-     }
-    &__parrafo {
-      font-weight: bold;
-    }
+  .tabla {
+    margin-left: 280px;
+  }
+
+  .textoServ {
+    margin-top: 13px;
   }
 
 /*Secciónes Nuestros viajes en fotos*/
 
-#Title02 {
-font-family: 'Pacifico', cursive;
-color: rgba(0, 0, 0, 0.76);
+.photo1 {
+margin-top: 130px;
 }
-#title03 {
-  font-family: 'Pacifico', cursive;
-  }
+
+.photo2 {
+  margin: 10px 5px 10px 10px;
+}
+
+.photo3 {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
 
   /*Información Util*/
   .infoUtil {
-    margin-top: 43px;
+    margin-top: 90px;
     margin-right: 0;
     padding-right: 0;
   }
  
   .infoUtil2 {
     margin-bottom: 80px;
+  }
+
+  .infoUtil3 {
+    margin-top: 20px;
   }
   
    .tituloInfo {
@@ -181,10 +167,10 @@ color: rgba(0, 0, 0, 0.76);
 }
 
 #title04 {
-  font-family: 'Pacifico', cursive;
   font-size: 50px;
   color: rgba(0, 0, 0, 0.835);
 }
+
 .margenes {
   padding: 20px;
   margin-left: 10px;
